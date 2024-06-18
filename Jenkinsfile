@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main', // Replace with your branch name
-                    url: 'https://github.com/Tejaswi53/integrating_docker.git' // Replace with your Git repository URL
+                    url: 'https://github.com/munni0125/dockerfile1integration.git // Replace with your Git repository URL
             }
         }
         stage('Build Docker Image') {
